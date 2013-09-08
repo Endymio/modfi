@@ -1,0 +1,24 @@
+{% extends 'layout.html.twig' %}
+
+{% block content %}
+    <h1 class="grid_7">Galleries</h1>
+    <div class="clear"></div>
+
+    <table class="grid_7 galleries">
+    {% for gallery in galleries %}
+        <tr>
+            <td><h2 class="date">{{ gallery.date }}</h2></td>
+            <td><h2><a class="border" href="{{ gallery.picasaurl }}">{{ gallery.title }}</a></h2></td>
+        </tr>
+        <tr>
+            <td><a class="nohover" href="{{ gallery.picasaurl }}"><img class="img_round" src="{{ gallery.picasaimg }}"></a></td>
+            <td style="vertical-align: top;">
+                <p>{{ gallery.description|raw }}</p>
+                <p><a href="{{ gallery.picasaurl }}">View gallery at Picasa</a></p>
+            </td>
+        </tr>
+    {% endfor %}
+    </table>
+    <div class="clear"></div>
+        
+{% endblock %}

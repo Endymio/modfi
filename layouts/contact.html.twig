@@ -1,0 +1,21 @@
+{% extends 'layout.html.twig' %}
+
+{% block content %}
+        <div class="grid_7"><h1>Contact me</h1></div>
+        <div class="clear"></div>
+
+        <div class="grid_3"><p>You can contact me by email or one of the following social networks:</p></div>
+        <div class="grid_4">
+            <ul class="none">
+                <li><img src="/images/email.png"> <span id="emaili"></span></li>
+                <li><img src="/images/facebook.gif"> <a href="http://www.facebook.com/janne.kaistinen">Facebook</a></li>
+                <li><img src="/images/twitter.gif"> <a href="http://twitter.com/#!/jannekai">Twitter</a></li>
+                <li><img src="/images/gplus.ico"> <a href="https://plus.google.com/109941209428197727332/posts">Google+</a></li>
+                <li><img src="/images/linkedin.png"> <a href="http://fi.linkedin.com/in/jannekaistinen">LinkedIn</a></li>
+            </ul>
+        </div>
+        <div class="clear" style="padding-bottom: 100px;"></div>
+        <script type="text/javascript">
+            email_link('emaili');
+        </script>
+{% endblock %}

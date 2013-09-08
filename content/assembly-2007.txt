@@ -1,0 +1,27 @@
+<img class="img_left" src="/images/lifeforce.jpg" />
+The Assembly 2007 computer festival was held in Helsinki on 2nd to 5th of August 2007. This year my demo group
+[cubicle](http://www.cubicle.fi/) didn't have any entries for the competitions, so I didn't have to spend my summer holidays coding 12 hours a day.
+However, visiting Assembly has been a part of my summers since 1994 and a lot of old friends were coming to the party, so
+once again tickets were bought.
+
+---
+
+Besides meeting friends, there is always a special feeling watching the competitions on the big screen. Watching own entry is
+an emotional roller coaster consisting of anxiety, addrenaline rush and calming down when you are awaiting the reactions of over
+3000 people. No such rush this year, but instead a great demo competition.
+
+ASD
+[exe](http://www.scene.org/file.php?file=%2Fparties%2F2007%2Fassembly07%2Fdemo%2Flifeforce_by_andromeda_software_development.zip&fileinfo),
+[video](http://www.scene.org/file.php?file=%2Fparties%2F2007%2Fassembly07%2Fdemo%2Flifeforce_by_andromeda_software_development.avi&fileinfo),
+[youtube](http://www.youtube.com/watch?v=a7NqQ30KfAo),
+Synesthetics
+[exe](http://www.scene.org/file.php?file=%2Fparties%2F2007%2Fassembly07%2Fdemo%2Fsts06_microdots_by_synesthetics.zip&fileinfo)
+[video](http://www.scene.org/file.php?file=%2Fparties%2F2007%2Fassembly07%2Fcompo_videos%2Fh264%2Fdemo%2Fsts06_microdots_by_synesthetics.mov&fileinfo)
+and Fairlight & CNCD & Orange
+[exe](http://www.scene.org/file.php?file=%2Fparties%2F2007%2Fassembly07%2Fdemo%2Fmedia_error_by_cncd_fairlight_and_orange.zip&fileinfo)
+[video](http://www.scene.org/file.php?file=%2Fparties%2F2007%2Fassembly07%2Fcompo_videos%2Fh264%2Fdemo%2Fmedia_error_by_cncd_fairlight_and_orange.mov&fileinfo)
+[youtube](http://www.youtube.com/watch?v=rRHYuep6mwQ)
+had great entries well worth watching. Other competitions that were positive in their quality were the 4k and short film competitions. Especially the
+winner of the short film competiton
+[Realtime Demo Wannabe](http://www.scene.org/file.php?file=%2Fparties%2F2007%2Fassembly07%2Fshort_film%2Frealtime_demo_wannabe_by_maxon__fake_h264_1856kbps.mp4&fileinfo)
+by Maxon was a great example of good demo design and graphical vision.

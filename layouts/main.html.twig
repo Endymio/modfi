@@ -1,0 +1,35 @@
+{% extends 'layout.html.twig' %}
+
+{% block content %}
+    {% for article in articles %}
+        <div class="article">
+            <h1 class="grid_7">
+                <a class="nohover" href="/article/{{ article.id }}"><span>{{ article.date }}</span></a>
+                <a class="border" href="/article/{{ article.id }}">{{ article.title }}</a>
+            </h1>
+            <div class="clear"></div>
+
+            <div class="grid_7 intro">
+                {{ article.intro|raw }}
+            </div>
+            <div class="clear"></div>
+
+            <div class="grid_7">
+                <div class="fb-comments" data-href="http://www.mod.fi/article/{{article.id }}" data-num-posts="5" data-width="660"></div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    {% endfor %}
+
+    <div class="grid_7 pagination">
+        {% if next_page > 0 %}
+            <a class="next_link" href="/{{ next_page }}">older entries</a>
+        {% endif %}
+
+        {% if prev_page >= 0 %}
+               <a class="prev_link" href="/{{ prev_page }}">newer entries</a>
+        {% endif %}
+    </div>
+    <div class="clear"></div>
+    
+{% endblock %}

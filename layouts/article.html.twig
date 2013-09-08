@@ -1,0 +1,24 @@
+{% extends 'layout.html.twig' %}
+
+{% block content %}
+    <div class="article">
+        <h1 class="grid_7"><span>{{ article.date }}</span> {{ article.title }}</h1>
+        <div class="clear"></div>
+
+        <div class="grid_7 intro">
+            {{ article.intro|raw }}
+        </div>
+        <div class="clear"></div>
+
+        <div class="grid_7 content">
+            {{ article.content|raw }}
+        </div>
+        <div class="clear"></div>
+
+        <div class="grid_7">
+            <div class="fb-comments" data-href="http://www.mod.fi/article/{{article.id }}" data-num-posts="20" data-width="660"></div>
+        </div>
+        <div class="clear"></div>
+
+    </div>
+{% endblock %}
