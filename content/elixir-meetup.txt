@@ -1,0 +1,7 @@
+
+Today was the first [meetup](http://www.meetup.com/Helsinki-Elixir) of Helsinki [Elixir](http://elixir-lang.org/) elixir users.
+
+I did a short presentation of [Google Sheets](https://github.com/GrandCru/GoogleSheets) library, for polling and loading CSV
+data from a Google Spreadsheet.
+
+Click [here to view the presentation](http://mod.fi/data/google_sheets/index.html)
